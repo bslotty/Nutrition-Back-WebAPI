@@ -1,0 +1,12 @@
+﻿namespace NutritionAPI.Models.Client_Requests {
+    public class MealPart_CR {
+        public string id { get; set; } = string.Empty;
+        public string mealId { get; set; } = string.Empty;
+        public string foodId { get; set; } = string.Empty;
+
+        public Food_CR food { get; set; }
+        public string amountMeasurementType { get; set; } = string.Empty;
+        public string amount { get; set; } = string.Empty;
+
+    }
+}
